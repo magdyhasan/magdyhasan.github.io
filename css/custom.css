@@ -438,3 +438,71 @@ ul.timelinelist > li:before {
             right: auto;
         }
 }
+
+/* 2026 refresh */
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar-brand {
+  padding-left: 0;
+}
+
+.profile-card {
+  position: sticky;
+  top: 90px;
+}
+
+.profile-img {
+  max-width: 220px;
+  border-radius: 4px;
+}
+
+.section-lead {
+  margin-bottom: 0.75rem;
+}
+
+.project-list > li,
+.compact-list > li {
+  margin: 14px 0;
+}
+
+.project-title {
+  font-weight: 700;
+}
+
+.project-group-title {
+  margin-bottom: 0.35rem;
+}
+
+.project-links {
+  white-space: nowrap;
+}
+
+.badge {
+  margin-left: 0.2rem;
+  margin-bottom: 0.15rem;
+  font-weight: 500;
+}
+
+.social-icons {
+  padding-left: 0;
+}
+
+.social-icons a {
+  margin-right: 8px;
+}
+
+@media (max-width: 767px) {
+  .profile-card {
+    position: static;
+  }
+
+  body > .container {
+    padding-top: 75px;
+  }
+
+  ul.timeline:before {
+    left: 20px;
+  }
+}
